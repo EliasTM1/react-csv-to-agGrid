@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    z-index: 1;
+    margin-top: 5rem;
+}
+
+.drop-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-weight: 800s;
+    height: 5rem;
+    width: 25rem;
+    border: gray dotted 3px;
+    border-radius: 15px;
+}
+
+.drop-zone-ready {
+    background-color: skyblue;
+}
+
+.drop-zone-error {
+    background-color: tomato;
+}
